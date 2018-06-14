@@ -9,6 +9,7 @@ Das Ziel war es, einen Proof of Concept (PoC) für einen elektronischen Einkaufs
 * Jan Niclas Weiss
 * Philipp Noack
 * M. Soleyman Fazeli
+* Marcus Friedrich
 
 
 ## Dokumentation
