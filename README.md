@@ -19,3 +19,7 @@ Die Dokumentation zum Projekt ist auf unserer [Wiki-Seite](https://github.com/So
 ## Präsentation
 
 Die Kurz-Präsentation zum Projekt ist hier (XXXXXX) zu finden.
+
+Das Video in englischer Sprache gibt es hier XXXX.
+
+## Code
