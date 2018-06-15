@@ -23,3 +23,5 @@ Die Kurz-Präsentation zum Projekt ist [hier](https://github.com/Soley02/IoTBarc
 Das Video in englischer Sprache gibt es hier XXXX.
 
 ## Code
+
+Der Code ist im Ordner [Programmcode](https://github.com/Soley02/IoTBarcodeHHZ/tree/master/Programmcode) abgelegt.
