@@ -27,4 +27,4 @@ Eine kurze Übersicht über unser Projekt gibt das folgende Video wieder - bitte
 
 ## Code
 
-Der Code ist im Ordner [Programmcode](https://github.com/Soley02/IoTBarcodeHHZ/tree/master/Programmcode) als .zip-Datei abgelegt.
+Der Code ist im Ordner [Programmcode](https://github.com/Soley02/IoTBarcodeHHZ/tree/master/Programmcode) als .zip-Datei hinterlegt.
