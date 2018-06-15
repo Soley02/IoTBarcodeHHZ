@@ -24,4 +24,4 @@ Das Video gibt es in deutscher und englischer Sprache.
 
 ## Code
 
-Der Code ist im Ordner [Programmcode](https://github.com/Soley02/IoTBarcodeHHZ/tree/master/Programmcode) abgelegt.
+Der Code ist im Ordner [Programmcode](https://github.com/Soley02/IoTBarcodeHHZ/tree/master/Programmcode) als .zip-Datei abgelegt.
