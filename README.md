@@ -14,7 +14,7 @@ Das Ziel war, einen Proof of Concept (PoC) für die automatische Aktualisierung 
 
 ## Dokumentation
 
-Die Dokumentation zum Projekt ist zu finden auf unserer [Wiki-Seite](https://github.com/Soley02/IoTBarcodeHHZ/wiki).
+Die Dokumentation zum Projekt ist auf unserer [Wiki-Seite](https://github.com/Soley02/IoTBarcodeHHZ/wiki) zu finden.
 
 ## Präsentation
 
