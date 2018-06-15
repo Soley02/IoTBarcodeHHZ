@@ -15,3 +15,7 @@ Das Ziel war, einen Proof of Concept (PoC) für einen elektronischen Einkaufszet
 ## Dokumentation
 
 Die Dokumentation zum Projekt ist zu finden auf unserer [Wiki-Seite](https://github.com/Soley02/IoTBarcodeHHZ/wiki).
+
+## Präsentation
+
+Die Kurz-Präsentation zum Projekt ist hier (XXXXXX) zu finden.
