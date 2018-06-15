@@ -1,6 +1,6 @@
 # IoT Hackathon - Smart Checkout
 Dieses Projekt wurde im Rahmen des Wahlfachs "Internet of Things" am [Herman Hollerith Zentrum](http://www.hhz.de/home/) erstellt.
-Das Ziel war, einen Proof of Concept (PoC) für einen elektronischen Einkaufszettel durchzuführen.
+Das Ziel war, einen Proof of Concept (PoC) für die automatische Aktualisierung eines elektronischen Einkaufszettels durchzuführen.
 
 ## Projektteilnehmer
 
