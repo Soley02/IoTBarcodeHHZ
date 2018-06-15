@@ -1,0 +1,164 @@
+.container2 {
+    background-color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    border: 0px solid lightgrey;
+    border-radius: 3px;
+    height: 100%;
+  }
+
+  .calc{
+    height:100%;
+    width:100%;
+    border: 0px solid lightgrey;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+
+  .calc2{
+    height:100%;
+    width:100%;
+    border: 0px solid lightgrey;
+    border-radius: 3px;
+    font-size: 18px;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    color: #ffffff;
+  }
+
+  .calc3{
+    border: 0px solid lightgrey;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    color: #ffffff;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+  }
+
+  .calc3[disabled]{
+    border: 0px solid lightgrey;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: lightgrey;
+    border-color: #2e6da4;
+    color: black;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+  }
+
+  .calc4{
+    border: 0px solid lightgrey;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;  
+  }
+
+  .container3{
+    background-color: #f2f2f2;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    height: 100%;
+    margin: auto;
+  }
+
+  .row{
+    height:100%;
+    padding: 14px 14px 0px 14px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  
+  .drawingBuffer{
+    top: 12.75%;
+    position: absolute;
+    left: 38.2%;
+  }
+
+  .col-50{
+    flex: 50%;
+    
+  }
+  .col-55{
+    flex: 55%;
+    
+  }
+  .col-45{
+    flex: 45%;
+    
+  }
+  .col-65{
+    flex: 65%;
+    
+  }
+
+  .col-35{
+    flex: 35%;
+    
+  }
+
+.display.dataTable.no-footer {
+    width:100% !important;
+    border: 0px !important;
+    
+ }
+
+ .table.dataTable thead th, table.dataTable thead td{
+  border-bottom:0px solid #111!important;
+ }
+ .sorting_disabled{
+  border-bottom:0px solid #111!important; 
+ }
+
+ .dataTables_scrollHeadInner {
+  width:350px !important;
+  
+}
+.dataTables_scrollHead{
+  background-color: lightgrey;
+}
+
+.dataTables_scrollBody {
+   border-bottom:0px !important; 
+}
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: flex; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; 
+  background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  width: 750px; /* Could be more or less, depending on screen size */
+  height: 500px;
+  margin: auto auto; /* 15% from the top and centered */
+  padding: 20px;
+  border-radius: 0px;
+}
+#scanner-container{
+  left: 285px;
+  top: 165px;
+  z-index: 2; /* Sit on top */
+  position: "inherit";
+}
+
+.drawingBuffer{
+  height: 0px;
+  width:0px;
+}
+

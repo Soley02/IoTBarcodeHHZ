@@ -1,0 +1,155 @@
+﻿<html>
+    <head>
+        <link href="home/index.css" rel="stylesheet" />
+        <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+    </head>
+    <body>
+
+        <!-- Help Button The Modal -->
+        <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close" ng-show="true">&times;</span>
+                    <p style="margin-bottom:0;font-size:16px;">Authenticate the checkout with a barcode:</p>
+                </br></br></br></br></br></br></br></br></br></br>
+                    <div class="container3" style="height:180px;">
+                            <table style="height:100%;width:100%;">
+                                    <tr>
+                                       <td style="padding:5px; padding-right:20px;padding-top:15px;">
+                                        <div class="form-group">
+                                            <b>ID</b>
+                                            <input type="text" id="wId" class="form-control" disabled style="background: white;">
+                                        </div>
+                                        <div class="form-group">
+                                            <b>Name</b>
+                                            <input type="text" id="wName" class="form-control" disabled style="background: white;" >
+                                        </div></td>
+                                       <td style="padding:5px; padding-left:20px;padding-top:15px;"><div class="form-group">
+                                            <b>E-Mail</b>
+                                             <input type="text" id="wEmail" class="form-control" disabled style="background: white;" >
+                                         </div>
+                                         <div class="form-group">
+                                            <b>Type</b>
+                                             <input type="text" id="wType" class="form-control" disabled style="background: white;" >
+                                         </div></td>
+                                    </tr>
+                            </table>
+                                    
+                            
+                            
+                    </div>      
+                </br>
+                   <div style="text-align: right;">
+                       <input class="calc4" style="background-color: #d9534f;color:#ffffff;" type="button" id="cancel" value="Cancel" onclick="">
+                        <input class="calc3" type="button" id="checkout"name="checkout" value="Checkout" onclick="" disabled>
+                    </div>
+                </div>
+        </div>
+
+        <div class="row" style="padding:10px 0px 10px 0px;margin:0px;">
+            <div class="col-35"> 
+                <div class="container2" style="height:88%;padding:10px 10px 10px 0px;">
+                    <div class="container3" style="height:540px;width:389px;position:absolute;">
+                        <table id="example" class="display" style="width:100%;"></table>
+                    </div>  
+                </div>
+                <div class="container2" style="height:12%;padding:10px 10px 10px 0px;">
+                    <div class="container3">
+                            <table style="height:100%;width:100%;padding:0px;">
+                                    <tr>
+                                        <td style="padding-left:10px"><input class="calc" style="background-color:#f2f2f2;padding-left:10px;" type="text" name="summe" value="Summe" readonly></td>
+                                        <td style="padding-right:10px"><input class="calc" style="background-color:#f2f2f2;text-align:right;padding-right:10px;font-weight:bold;" type="text" name="summe2" readonly></td>
+                                    </tr>
+                            </table>
+                    </div>      
+                </div>
+                
+            </div>
+            <div class="col-65"> 
+                <div class="container2" style="height:35%;padding:10px 0px 10px 10px;">
+                    <div class="container3">
+                        <div id="scanner-container"></div>
+                    </div>  
+                </div>
+                <div class="container2" style="height:65%;padding:0;background-color: #ffffff;border: 0px">
+                    <div class="row" style="padding:0;margin:0px;">
+                        <div class="col-55"> 
+                                <div class="container2">
+                                    <div class="container3" style="padding:5px 5px 5px 5px;;margin:0px;">
+                                            <table style="height:100%;width:100%;">
+                                                    <tr>
+                                                       <td style="padding:5px"><input class="calc" type="button" name="one" value="1" onclick=""></td>
+                                                       <td style="padding:5px"><input class="calc" type="button" name="two" value="2" onclick=""></td>
+                                                       <td style="padding:5px"><input class="calc" type="button" name="three" value="3" onclick=""></td>
+                                                       <td style="padding:5px"><input class="calc2" type="button" name="plus" value="+" onclick=""></td>
+                                                    </tr>
+                                                    <tr>
+                                                       <td style="padding:5px"><input class="calc" type="button" name="four" value="4" onclick=""></td>
+                                                       <td style="padding:5px"><input class="calc" type="button" name="five" value="5" onclick=""></td>
+                                                       <td style="padding:5px"><input class="calc" type="button" name="six" value="6" onclick=""></td>
+                                                       <td style="padding:5px"><input class="calc2" type="button" name="minus" value="-" onclick=""></td>
+                                                       
+                                                    </tr>
+                                                    <tr>
+                                                       <td style="padding:5px"><input class="calc" type="button" name="seven" value="7" onclick=""></td>
+                                                       <td style="padding:5px"><input class="calc" type="button" name="eight" value="8" onclick=""></td>
+                                                       <td style="padding:5px"><input class="calc" type="button" name="nine" value="9" onclick=""></td>
+                                                       <td style="padding:5px"><input class="calc2" type="button" name="mal" value="x" onclick=""></td>
+                                                       
+                                                    </tr>
+                                                    <tr>
+                                                       <td style="padding:5px" colspan="2"><input class="calc" type="button" name="zero"  value="0" onclick=""></td>
+                                                       <td style="padding:5px"><input class="calc2" type="button" name="komma" value="," onclick=""></td>
+                                                       <td style="padding:5px"><input class="calc2" type="button" name="geteilt" value="/" onclick=""></td>
+                                                       
+                                                    </tr>
+                                                 </table>
+                                    </div>  
+                                </div>   
+                        </div>
+                        <div class="col-45"> 
+                                <div class="container2" style="padding:10px 0px 10px 10px;">
+                                    <div class="container3">
+                                        <table style="height:100%;width:100%;">
+                                                <tr>
+                                                    <td style="padding:5px"><input class="calc" type="button" id="smartCheckout" name="smartcheck" value="Checkout" onclick=""></td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding:5px"><input class="calc" type="button" id="payback" name="payback" value="Payback" onclick=""></td>
+                                                 
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding:5px"><input class="calc" type="button" name="retoure" value="Retoure" onclick=""></td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding:5px"><input class="calc" type="button" name="Porto" value="Porto" onclick=""></td>
+                                                     
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding:5px"><input class="calc" style="background-color: #d9534f;color:#ffffff;" type="button" id="delete" name="delete" value="Löschen" onclick=""></td>
+                                                    
+                                                </tr>
+                                                                                              
+                                            </table>
+                                    </div>  
+                                </div>
+                        </div>
+                    </div>                        
+                </div>
+            </div>
+        </div>
+        <div>
+            <!-- Div to show the scanner -->
+    
+    <!--<input type="button" id="btn" value="Start/Stop the scanner" />-->
+
+    <!-- Include the image-diff library -->
+    <script src="./home/quaggaJS/dist/quagga.min.js"></script>
+
+    
+        </div>
+    </body>
+</html>
+
