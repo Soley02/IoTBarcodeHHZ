@@ -20,7 +20,7 @@ Die Dokumentation zum Projekt ist auf unserer [Wiki-Seite](https://github.com/So
 
 Die Kurz-Präsentation zum Projekt ist [hier](https://github.com/Soley02/IoTBarcodeHHZ/blob/master/Dateien/Pr%C3%A4sentation_Smart_Checkout.pptx) zu finden.
 
-Das Video gibt es in deutscher und englischer Sprache.
+Das Video ist [hier](https://raw.githubusercontent.com/Soley02/IoTBarcodeHHZ/master/Videos/Smart_Checkout_Final.mp4) zu finden.
 
 ## Code
 
