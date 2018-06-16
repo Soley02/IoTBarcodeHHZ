@@ -25,6 +25,6 @@ Eine kurze Übersicht über unser Projekt gibt das folgende Video wieder - bitte
 
 [![](https://github.com/Soley02/IoTBarcodeHHZ/blob/master/Bilder/Screenshot_Video.png)](https://raw.githubusercontent.com/Soley02/IoTBarcodeHHZ/master/Videos/Smart_Checkout_Final.mp4)
 
-## Code
+## Programmcode
 
 Der Code ist im Ordner [Programmcode](https://github.com/Soley02/IoTBarcodeHHZ/tree/master/Programmcode) als .zip-Datei und auch in Einzeldateien hinterlegt.
