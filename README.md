@@ -27,4 +27,4 @@ Eine Demonstration über das entwickelte Konzept zur automatischen Aktualisierun
 
 ## Programmcode
 
-Der Code ist unter dem Verzeichnis [Programmcode](https://github.com/Soley02/IoTBarcodeHHZ/tree/master/Programmcode) als .zip-Datei und auch in Form von Einzeldateien hinterlegt.
+Der Code ist im Verzeichnis [Programmcode](https://github.com/Soley02/IoTBarcodeHHZ/tree/master/Programmcode) als .zip-Datei und auch in Form von Einzeldateien hinterlegt.
