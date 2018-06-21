@@ -21,7 +21,7 @@ Die Dokumentation zum Projekt ist auf der [Wiki-Seite](https://github.com/Soley0
 Die Kurz-Präsentation zum Projekt ist [hier](https://github.com/Soley02/IoTBarcodeHHZ/blob/master/Dateien/Pr%C3%A4sentation_Smart_Checkout.pptx) zu finden.
 
 ## Video
-Eine Demonstration über das entwickelte Konzept zur automatischen Aktualisierung eines elektronischen Einkaufszettels gibt das folgende Video wieder - bitte einfach auf das Vorschaubild klicken:
+Das folgende Video zeigt eine Demonstration des entwickelten Konzepts zur automatischen Aktualisierung eines elektronischen Einkaufszettels - bitte einfach auf das Vorschaubild klicken:
 
 [![](https://github.com/Soley02/IoTBarcodeHHZ/blob/master/Bilder/Screenshot_Video.png)](https://raw.githubusercontent.com/Soley02/IoTBarcodeHHZ/master/Videos/Smart_Checkout_Final.mp4)
 
