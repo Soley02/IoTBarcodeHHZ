@@ -1,6 +1,6 @@
 # IoT Hackathon - Smart Checkout
 Dieses Projekt wurde im Rahmen des Wahlfachs SCM22/SCM32 Internet of Things am [Herman Hollerith Zentrum](http://www.hhz.de/home/) durchgeführt.
-Das Ziel war, einen Proof of Concept (PoC) für die automatische Aktualisierung eines elektronischen Einkaufszettels durchzuführen.
+Das Ziel war, einen Proof of Concept (PoC) für die automatische Aktualisierung eines elektronischen Einkaufszettels durchzuführen. Der ausgewählte Titel für das Projekt lautet "Smart Checkout".
 
 ## Projektteilnehmer
 
